@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#a9a9a9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:text="Want to delete ?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnDeleteCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8e8e8e"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/btnDeleteOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8e8e8e"
+            android:layout_margin="10dp"
+            android:text="Ok"
+            android:textAllCaps="false"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
